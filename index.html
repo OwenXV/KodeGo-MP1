@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talitha Koum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+  <header>
+    <!-- start offcanvas properties -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-right" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav fs-3">
+          <li><a class="dropdown-item mb-3" href="#home">Home</a></li>
+          <li><a class="dropdown-item mb-3" href="./about.html">About</a></li>
+          <li><a class="dropdown-item mb-3" href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+     <!-- end offcanvas properties -->
+     <div class="container-fluid" id="nav-section">
+      <nav class="navbar navbar-expand-lg bg-body-transparent py-0">
+        <div class="container gx-0">
+            <a class="navbar-brand" href="./index.html">
+              <img class="img-fluid" src="./assests/Small Logo.png" alt="Talitha Koum Logo" id="navbar-icon"> 
+            </a>
+            <button class="navbar-toggler border-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-right" aria-controls="offcanvasLabel" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="icon"><i class="bi bi-filter-right fs-1 text-black"></i></div>
+            </button>
+          
+          <div class="collapse navbar-collapse" id="offcanvas-right">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item fs-5 fw-semibold">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown fs-5 fw-semibold">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu shadow-sm p-3 mb-5 bg-body-tertiary rounded border-0">
+                  <li><a class="dropdown-item" href="./about.html">Who we Are</a></li>
+                  <li><a class="dropdown-item" href="./about.html">Sustainability</a></li>
+                  <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item fs-5 fw-semibold">
+                <a class="nav-link " href="./shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+     </div>
+  </header>
+<main>
+<section id="home">
+  <div class="container-fluid">
+    <div class="row d-flex flex-column text-center py-5 px-0">
+      <div class="col">
+        <h1 class="display-1 text-white fw-bold">Life is too short to have bad shoes</h1>
+      </div>
+      <div class="col">
+        <p class="text-white">live with style anytime,anywhere!</p>
+      </div>
+      <div class="col">
+        <a href="./shop.html"> <button class="btn">View More</button></a>
+      </div>
+    </div>
+  </div>
+</section>  
+<section id="SocMedPhotos">
+  <div class="container pb-5">
+    <h3 class="pt-5 text-center h1">Our Fashion Community! #Forthe'Gram!</h3>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assests/style1.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style2.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style3.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style4.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style5.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style6.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style7.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style8.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assests/style9.png" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<section id="productCatalog">
+  <div class="container pb-5" id="kit-container">
+    <h4 class="text-center fw-800">Product Catalog</h4>
+    <div class="row text-center">
+      <div class="col col-lg-4">
+        <div class="image mx-auto">
+          <img src="./assests/Formal.png" alt="shoes">
+          <div class="details">
+           <h2 class="fw-bolder h-2">Formal</h2>
+           <div class="more">
+            <a href="./shop.html" class="read-more">View More</a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-4">
+        <div class="image mx-auto">
+          <img src="./assests/casual.png" alt="shoes">
+          <div class="details">
+           <h2 class="fw-bolder h-2">Casual</h2>
+           <div class="more">
+            <a href="./shop.html" class="read-more">View More</a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-4">
+        <div class="image mx-auto">
+          <img src="./assests/Sporty.png" alt="shoes">
+          <div class="details">
+           <h2 class="fw-bolder h-2">Sports</h2>
+           <div class="more">
+            <a href="./shop.html" class="read-more">View More</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container-fluid bg-dark">
+    <div class="container pt-2 h-100" id="footer-container">
+      <div class="row">
+        <div class="col-6 text-center d-flex align-items-center justify-content-md-center" id="footer-leftpane">
+            <img src="./assests/FooterLogo.png" alt="">
+        </div>
+        <div class="col-6 px-0" id="footer-rightpane">
+          <div class="container align-text-middle">
+            <div class="row gx-2">
+              <div class="col-12 text-center p-2" id="footer-links">
+                <div class="row flex-lg-row text-center">
+                  <div class="col-4 text-center">
+                    <a href="./index.html">Home</a>
+                  </div>
+                  <div class="col-4 text-center">
+                    <a href="./about.html">About</a>
+                  </div>
+                  <div class="col-4 text-center">
+                    <a href="./contact.html">Contact</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 text-center b-3 d-flex align-items-center justify-content-center align-items-lg-start" id="footer-icon">
+                <div class="row">
+                  <div class="col">
+                    <a href=""><i class="bi bi-facebook text-white"></i></a>
+                  </div>
+                  <div class="col">
+                    <a href=""><i class="bi bi-instagram text-white"></i></a>
+                  </div>
+                  <div class="col">
+                    <a href=""><i class="bi bi-twitter text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-12 text-center" id="footer-text">
+                <p class="fw-lighter fs-6 text-lg-nowrap">©Talitha Koum. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</footer>
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
+</body>
+</html>

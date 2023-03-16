@@ -1,0 +1,54 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital,wght@1,300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Karla:wght@300&family=Lato:ital,wght@1,300&family=Reenie+Beanie&display=swap');
+
+*{
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Karla', sans-serif;
+}
+.navbar-brand>img{
+  height: 80px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.btn button{
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top:  6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card{
+    box-shadow:0px 2px 5px black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.star{
+    font-size: 20px;
+}
+.bi-star-fill{
+    color:rgba(255,196,0)
+}
+#footer-links a{
+    text-decoration: none;
+    color: white;
+  }
+  #footer-text  p{
+    text-decoration: none;
+    color: #808080;
+  }
+  #footer-icon a{
+    color: white;
+    margin: auto;
+  }
+  
